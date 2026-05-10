@@ -9,7 +9,7 @@
             <div class="card-body">
                 <p><strong>Marque :</strong> {{ $produit->marque }}</p>
                 <p><strong>Catégorie :</strong> {{ $produit->categorie }}</p>
-                <p><strong>Score écologique :</strong> {{ $produit->score_eco }}/10</p>
+                <p><strong>Score écologique :</strong> {{ $produit->score_eco }}/100</p>
                 <p><strong>CO₂ :</strong> {{ $produit->co2_kg }} kg</p>
 
                 @if($produit->score_eco >= 7)
@@ -25,7 +25,7 @@
                 <div class="card mb-2">
                     <div class="card-body d-flex justify-content-between">
                         <strong>{{ $alt->nom }}</strong>
-                        <span class="badge bg-success">{{ $alt->score_eco }}/10</span>
+                        <span class="badge bg-success">{{ $alt->score_eco }}/100</span>
                     </div>
                 </div>
                 @empty

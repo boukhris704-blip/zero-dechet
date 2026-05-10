@@ -30,6 +30,5 @@
     @endforeach
     </tbody>
 </table></div>
-<div class="p-3">{{ $produits->links() }}</div>
 </div>
 @endsection
