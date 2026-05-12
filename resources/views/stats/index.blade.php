@@ -137,3 +137,4 @@ new Chart(document.getElementById('pieCategorie'), {
 });
 </script>
 @endsection
+<!-- Rayen - Dashboard Statistiques et Graphiques Chart.js -->
