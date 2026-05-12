@@ -29,3 +29,4 @@
 @endforeach
 </div>
 @endsection
+<!-- Adem Khalifa - Badges et Defis Ecologiques -->
